@@ -5,7 +5,7 @@ module.exports = {
     'plugin:typescript-sort-keys/recommended',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'import', 'typescript-sort-keys'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
