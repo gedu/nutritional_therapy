@@ -14,7 +14,7 @@ export const typography = StyleSheet.create({
     fontSize: 46,
   },
   headlineLarge: {
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.medium,
     fontSize: 32,
   },
   headlineLargeLight: {

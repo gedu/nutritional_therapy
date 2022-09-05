@@ -36,13 +36,11 @@ const mainOptions = {
   headerShown: false,
 };
 
-type ExpensesRoutesProps = {
+type AppRoutesProps = {
   initialScreen?: keyof typeof RouteName;
 };
 
-export const ExpensesRoutes = ({
-  initialScreen = 'splash',
-}: ExpensesRoutesProps) => {
+export const AppRoutes = ({ initialScreen = 'splash' }: AppRoutesProps) => {
   return (
     <Stack.Navigator
       screenOptions={mainOptions}

@@ -12,13 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2E8280F0FAD14E1FACA1E4E2 /* Prompt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 345139D44C6E4FA9BDA68F99 /* Prompt-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-nutritionalTherapy-nutritionalTherapyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-nutritionalTherapy-nutritionalTherapyTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F9C9DADFE5FC4E809C2985BA /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80D83071C6FD416E85ADF54A /* Prompt-Bold.ttf */; };
-		F7EC668702584D9F84ECDA8D /* Prompt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEAFF63176A64460A0A11D00 /* Prompt-Light.ttf */; };
-		D7BA3A15BBC0484FAD9B393B /* Prompt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F2992105842416FA4D33AE5 /* Prompt-Medium.ttf */; };
-		2E8280F0FAD14E1FACA1E4E2 /* Prompt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 345139D44C6E4FA9BDA68F99 /* Prompt-Regular.ttf */; };
 		A39DB3B1192245F6B9E0014B /* Prompt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50747E5F7B664D1993930907 /* Prompt-Thin.ttf */; };
+		D7BA3A15BBC0484FAD9B393B /* Prompt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F2992105842416FA4D33AE5 /* Prompt-Medium.ttf */; };
+		F7EC668702584D9F84ECDA8D /* Prompt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEAFF63176A64460A0A11D00 /* Prompt-Light.ttf */; };
+		F9C9DADFE5FC4E809C2985BA /* Prompt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80D83071C6FD416E85ADF54A /* Prompt-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +42,18 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nutritionalTherapy/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nutritionalTherapy/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-nutritionalTherapy-nutritionalTherapyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nutritionalTherapy-nutritionalTherapyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345139D44C6E4FA9BDA68F99 /* Prompt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Regular.ttf"; path = "../assets/fonts/Prompt-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-nutritionalTherapy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionalTherapy.debug.xcconfig"; path = "Target Support Files/Pods-nutritionalTherapy/Pods-nutritionalTherapy.debug.xcconfig"; sourceTree = "<group>"; };
+		50747E5F7B664D1993930907 /* Prompt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Thin.ttf"; path = "../assets/fonts/Prompt-Thin.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-nutritionalTherapy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionalTherapy.release.xcconfig"; path = "Target Support Files/Pods-nutritionalTherapy/Pods-nutritionalTherapy.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-nutritionalTherapy-nutritionalTherapyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionalTherapy-nutritionalTherapyTests.debug.xcconfig"; path = "Target Support Files/Pods-nutritionalTherapy-nutritionalTherapyTests/Pods-nutritionalTherapy-nutritionalTherapyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-nutritionalTherapy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nutritionalTherapy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2992105842416FA4D33AE5 /* Prompt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Medium.ttf"; path = "../assets/fonts/Prompt-Medium.ttf"; sourceTree = "<group>"; };
+		80D83071C6FD416E85ADF54A /* Prompt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Bold.ttf"; path = "../assets/fonts/Prompt-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nutritionalTherapy/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-nutritionalTherapy-nutritionalTherapyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionalTherapy-nutritionalTherapyTests.release.xcconfig"; path = "Target Support Files/Pods-nutritionalTherapy-nutritionalTherapyTests/Pods-nutritionalTherapy-nutritionalTherapyTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEAFF63176A64460A0A11D00 /* Prompt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Prompt-Light.ttf"; path = "../assets/fonts/Prompt-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		80D83071C6FD416E85ADF54A /* Prompt-Bold.ttf */ = {isa = PBXFileReference; name = "Prompt-Bold.ttf"; path = "../assets/fonts/Prompt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AEAFF63176A64460A0A11D00 /* Prompt-Light.ttf */ = {isa = PBXFileReference; name = "Prompt-Light.ttf"; path = "../assets/fonts/Prompt-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5F2992105842416FA4D33AE5 /* Prompt-Medium.ttf */ = {isa = PBXFileReference; name = "Prompt-Medium.ttf"; path = "../assets/fonts/Prompt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		345139D44C6E4FA9BDA68F99 /* Prompt-Regular.ttf */ = {isa = PBXFileReference; name = "Prompt-Regular.ttf"; path = "../assets/fonts/Prompt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		50747E5F7B664D1993930907 /* Prompt-Thin.ttf */ = {isa = PBXFileReference; name = "Prompt-Thin.ttf"; path = "../assets/fonts/Prompt-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,19 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E7FBA6FAC9844718B58F129 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80D83071C6FD416E85ADF54A /* Prompt-Bold.ttf */,
+				AEAFF63176A64460A0A11D00 /* Prompt-Light.ttf */,
+				5F2992105842416FA4D33AE5 /* Prompt-Medium.ttf */,
+				345139D44C6E4FA9BDA68F99 /* Prompt-Regular.ttf */,
+				50747E5F7B664D1993930907 /* Prompt-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* nutritionalTherapy */ = {
@@ -158,19 +171,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		0E7FBA6FAC9844718B58F129 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				80D83071C6FD416E85ADF54A /* Prompt-Bold.ttf */,
-				AEAFF63176A64460A0A11D00 /* Prompt-Light.ttf */,
-				5F2992105842416FA4D33AE5 /* Prompt-Medium.ttf */,
-				345139D44C6E4FA9BDA68F99 /* Prompt-Regular.ttf */,
-				50747E5F7B664D1993930907 /* Prompt-Thin.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

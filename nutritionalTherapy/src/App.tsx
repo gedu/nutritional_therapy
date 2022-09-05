@@ -4,7 +4,7 @@ import {
   Theme,
 } from '@react-navigation/native';
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { AppRoutes } from './router';
 import { Colors } from './theme';
 
 const navTheme = {
@@ -15,7 +15,7 @@ const navTheme = {
 const App = () => {
   return (
     <NavigationContainer theme={navTheme}>
-      <SafeAreaView />
+      <AppRoutes />
     </NavigationContainer>
   );
 };
