@@ -16,6 +16,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { typography } from './theme';
 
 const Section: React.FC<
   PropsWithChildren<{
@@ -27,7 +28,7 @@ const Section: React.FC<
     <View style={styles.sectionContainer}>
       <Text
         style={[
-          styles.sectionTitle,
+          { ...typography.headlineBig },
           {
             color: isDarkMode ? Colors.white : Colors.black,
           },
