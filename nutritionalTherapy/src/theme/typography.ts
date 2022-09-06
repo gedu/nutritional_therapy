@@ -38,7 +38,7 @@ export const typography = StyleSheet.create({
     fontSize: 18,
   },
   bodyMedium: {
-    fontFamily: FontFamily.medium,
+    fontFamily: FontFamily.regular,
     fontSize: 16,
   },
   bodySmall: {

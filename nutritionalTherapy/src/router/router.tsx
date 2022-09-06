@@ -16,7 +16,12 @@ export const RouteName = {
 export type StackParams = {
   [RouteName.splash]: undefined;
   [RouteName.home]: undefined;
-  [RouteName.details]: undefined;
+  [RouteName.details]: {
+    description: string;
+    headerImage: string;
+    ratingPoints?: string;
+    title: string;
+  };
 };
 
 export type NavigationProps = {
@@ -25,10 +30,7 @@ export type NavigationProps = {
     'Splash'
   >['navigation'];
   [RouteName.home]: NativeStackScreenProps<StackParams, 'Home'>['navigation'];
-  [RouteName.details]: NativeStackScreenProps<
-    StackParams,
-    'Details'
-  >['navigation'];
+  [RouteName.details]: NativeStackScreenProps<StackParams, 'Details'>;
 };
 
 const Stack = createNativeStackNavigator<StackParams>();

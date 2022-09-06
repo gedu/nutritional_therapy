@@ -1,13 +1,33 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { Image, ListRenderItem, Text, View } from 'react-native';
+import {
+  Image,
+  ListRenderItem,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import { MealPlanPayload } from '../../common/datasources/remotesource/fragments/baseMeals';
+import { NavigationProps } from '../../router';
 import { styles } from './MealList.style';
 
-export const MealListItem: ListRenderItem<MealPlanPayload> = ({ item }) => {
-  const imagePlaceholder = item.schedule.lunch.recipesDetails.images.url;
+type MealListItemProps = {
+  meal: MealPlanPayload;
+};
+
+export const MealListItem = ({ meal }: MealListItemProps) => {
+  const navigation = useNavigation<NavigationProps['Home']>();
+  const imagePlaceholder = meal.schedule.lunch.recipesDetails.images.url;
+  const handleMealPress = () => {
+    navigation.navigate('Details', {
+      title: meal.title,
+      headerImage: imagePlaceholder,
+      description: meal.description,
+    });
+  };
 
   return (
-    <View style={styles.card}>
+    <TouchableOpacity style={styles.card} onPress={handleMealPress}>
       <View style={styles.cardContent}>
         <Image
           style={styles.cardImage}
@@ -15,10 +35,10 @@ export const MealListItem: ListRenderItem<MealPlanPayload> = ({ item }) => {
           resizeMode="contain"
         />
         <View style={styles.cardInfoContainer}>
-          <Text style={styles.cardAuthor}>{item.author}</Text>
-          <Text style={styles.cardTitle}>{item.title}</Text>
+          <Text style={styles.cardAuthor}>{meal.author}</Text>
+          <Text style={styles.cardTitle}>{meal.title}</Text>
         </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
