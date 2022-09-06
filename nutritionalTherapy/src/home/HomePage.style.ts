@@ -16,7 +16,15 @@ export const styles = StyleSheet.create({
     ...typography.headlineLargeLight,
     color: Colors.black,
   },
-  mealsContainer: {
-    flex: 1,
+  recipeTitle: {
+    paddingVertical: 16,
+    paddingStart: 16,
+    ...typography.headlineMedium,
+    color: Colors.black,
+  },
+  recipeContainer: {
+    paddingVertical: 16,
+    backgroundColor: Colors.white,
+    borderTopStartRadius: 16,
   },
 });

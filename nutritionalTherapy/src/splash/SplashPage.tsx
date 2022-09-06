@@ -1,8 +1,9 @@
 import LottieView from 'lottie-react-native';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Text, View } from 'react-native';
+import { StatusBar, Text, View } from 'react-native';
 import { NavigationProps } from '../router';
+import { Colors } from '../theme';
 import { styles } from './SplashPage.style';
 
 type SplashPageProps = {
@@ -22,6 +23,7 @@ export const SplashPage = ({ navigation }: SplashPageProps) => {
   }, [navigation]);
   return (
     <View style={styles.root}>
+      <StatusBar barStyle={'dark-content'} backgroundColor={Colors.white} />
       <Text style={styles.title}>{t('splashTitle')}</Text>
       <LottieView
         style={styles.animationItem}

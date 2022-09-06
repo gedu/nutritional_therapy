@@ -2,8 +2,8 @@ import { Dimensions, StyleSheet } from 'react-native';
 import { Colors, typography } from '../../theme';
 
 const { width } = Dimensions.get('window');
-const cardHeight = 100;
-const cardImage = 80;
+const cardHeight = 130;
+const cardImage = 110;
 
 export const styles = StyleSheet.create({
   card: {
@@ -25,6 +25,7 @@ export const styles = StyleSheet.create({
   },
   cardInfoContainer: {
     marginStart: 8,
+    flexShrink: 1,
   },
   cardAuthor: {
     ...typography.bodySmall,

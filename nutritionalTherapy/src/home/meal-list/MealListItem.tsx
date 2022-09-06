@@ -16,9 +16,7 @@ export const MealListItem: ListRenderItem<MealPlanPayload> = ({ item }) => {
         />
         <View style={styles.cardInfoContainer}>
           <Text style={styles.cardAuthor}>{item.author}</Text>
-          <Text style={styles.cardTitle} numberOfLines={2}>
-            {item.title}
-          </Text>
+          <Text style={styles.cardTitle}>{item.title}</Text>
         </View>
       </View>
     </View>
