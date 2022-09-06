@@ -22,7 +22,7 @@ export const typography = StyleSheet.create({
     fontSize: 32,
   },
   headlineMedium: {
-    fontFamily: FontFamily.bold,
+    fontFamily: FontFamily.medium,
     fontSize: 24,
   },
   headlineSmall: {
@@ -38,8 +38,8 @@ export const typography = StyleSheet.create({
     fontSize: 18,
   },
   bodyMedium: {
-    fontFamily: FontFamily.regular,
-    fontSize: 18,
+    fontFamily: FontFamily.medium,
+    fontSize: 16,
   },
   bodySmall: {
     fontFamily: FontFamily.light,

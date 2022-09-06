@@ -3,6 +3,6 @@ export const Colors = {
   aliceBlue: '#edf4f5',
   lightBlue: '#afcbd1',
   green: '#0bb15b',
-  grey: '##9eb0b8',
+  grey: '#9eb0b8',
   white: '#FFF',
 };
